@@ -5,4 +5,4 @@ spring:
   application:
     name: key-generator-service
   config:
-    import: optional:configserver:${CONFIG_SERVER_URL:http://localhost:9999/}
+    import: optional:configserver:${CONFIG_SERVER_URL:https://jo-config-service-918490e97d40.herokuapp.com/}
